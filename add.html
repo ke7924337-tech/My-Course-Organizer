@@ -1,51 +1,38 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>إضافة كورس جديد</title>
+    <title>Enroll New Course</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="inner-bg">
     <header>
-        <h1>Personal Course Organizer</h1>
+        <h1>Enroll a New Course</h1>
         <nav>
             <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="courses.html">كورساتي</a></li>
-                <li><a href="add.html" class="active">إضافة كورس</a></li>
-                <li><a href="contact.html">تواصل معنا</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">My Courses</a></li>
+                <li><a href="add.html">Add Course</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="form-section">
-            <h2>إضافة كورس جديد إلى الجدول</h2>
+        <div class="container" style="max-width: 500px;">
             <form>
-                <div class="form-group">
-                    <label>اسم الكورس:</label>
-                    <input type="text" placeholder="مثلاً: Programming 1">
-                </div>
-                <div class="form-group">
-                    <label>المحاضر:</label>
-                    <input type="text" placeholder="اسم الدكتور">
-                </div>
-                <div class="form-group">
-                    <label>الساعات المعتمدة:</label>
-                    <input type="number" placeholder="3">
-                </div>
-                <div class="form-group">
-                    <label>ملاحظات:</label>
-                    <textarea placeholder="أي تفاصيل إضافية..."></textarea>
-                </div>
-                <button type="submit" class="btn">إضافة الكورس</button>
+                <div class="form-group"><input type="text" placeholder="Course Name"></div>
+                <div class="form-group"><input type="text" placeholder="Instructor"></div>
+                <div class="form-group"><input type="text" placeholder="Duration"></div>
+                <div class="form-group"><textarea placeholder="Notes"></textarea></div>
+                <button type="button" class="btn">Add Course</button>
             </form>
-        </section>
+        </div>
     </main>
 
     <footer>
-        <p>جميع الحقوق محفوظة &copy; 2026 - كنز عصام</p>
+        <p>Created with ✨ by Kenzy Essam &copy; 2026 | All Rights Reserved</p>
     </footer>
 </body>
 </html>

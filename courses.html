@@ -2,64 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="inner-bg">
     <header>
-        <h1>Active Courses</h1>
+        <h1>My Learning Dashboard</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="courses.html">My Courses</a></li>
-                <li><a href="add.html">Add New</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="add.html">Add Course</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <table>
-            <thead>
-                <tr>
-                    <th>Course Name</th>
-                    <th>Instructor</th>
-                    <th>Duration</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr onclick="alert('Details: Mastery in Typography & Layout Design')">
-                    <td>Graphic Design Masterclass</td>
-                    <td>Alex G.</td>
-                    <td>12 Weeks</td>
-                    <td style="color: green; font-weight: bold;">In Progress</td>
-                </tr>
-                <tr onclick="alert('Details: Learning Figma & Adobe XD Essentials')">
-                    <td>UI/UX Design Essentials</td>
-                    <td>Sarah Miller</td>
-                    <td>8 Weeks</td>
-                    <td style="color: orange; font-weight: bold;">Pending</td>
-                </tr>
-                <tr onclick="alert('Details: Advanced React & JavaScript Frameworks')">
-                    <td>Full-Stack Web Development</td>
-                    <td>David Chen</td>
-                    <td>16 Weeks</td>
-                    <td style="color: green; font-weight: bold;">In Progress</td>
-                </tr>
-                <tr onclick="alert('Details: Logic & Digital Systems')">
-                    <td>Digital Electronics</td>
-                    <td>Dr. Helmy</td>
-                    <td>10 Weeks</td>
-                    <td style="color: gray; font-weight: bold;">Completed</td>
-                </tr>
-            </tbody>
-        </table>
-        <p style="text-align: center; color: #7f8c8d;">(Click on any course row to see quick details)</p>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Instructor</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Graphic Design</td><td>Alex G.</td><td>12 Weeks</td><td>In Progress</td></tr>
+                    <tr><td>UI/UX Design</td><td>Sarah Miller</td><td>8 Weeks</td><td>Pending</td></tr>
+                    <tr><td>Web Development</td><td>David Chen</td><td>16 Weeks</td><td>In Progress</td></tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <footer>
-        <p>Kenzy Essam - Computer Science Student</p>
+        <p>Created with ✨ by Kenzy Essam &copy; 2026 | All Rights Reserved</p>
     </footer>
 </body>
 </html>
